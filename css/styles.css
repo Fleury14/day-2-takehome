@@ -39,3 +39,41 @@
   background-color: black;
   color: white;
 }
+
+
+
+/* Media Queries*/
+
+@media only screen and (min-width: 768px) {
+
+  .content-box {
+    background-color: #000;
+  }
+
+  .aside-box {
+    background-color: yellow;
+  }
+
+  .promo-box {
+    background-color: cyan;
+  }
+}
+
+
+
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+
+  .content-box {
+    background-color: grey;
+  }
+
+  .aside-box {
+    background-color: magenta;
+  }
+
+  .promo-box {
+    background-color: blue;
+  }
+
+  }
+}
